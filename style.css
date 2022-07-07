@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Fonts/Roboto-Regular.ttf);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainText {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+
+}
+/* secondary text + links */
+.secondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    padding-left: 15px;
+}
+
+.logoText {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: 3;
+}
+
+.links {
+    width: 10vw;
+    flex: 1;
+}
+
+.infoHeader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.blueStuff {
+    background-color: #3882f6;
+}
+
+.signUpBtn {
+    background-color: #3882f6; 
+    color: #F9FAF8;
+    border-radius: 25%;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
