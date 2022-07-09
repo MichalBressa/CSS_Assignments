@@ -5,12 +5,15 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    margin-bottom: 3%;
 }
 
 h1 {
@@ -24,6 +27,10 @@ h1 {
     font-weight: 800;
     color: #F9FAF8;
 
+}
+
+#intro {
+    width:30vw;
 }
 
 .secondaryText {
@@ -157,4 +164,14 @@ footer {
     color: #E5E7EB;
     text-align: center;
     padding: 3%
+}
+
+#button2 {
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+#callToActionP1 {
+    font-weight: bold; 
+    font-size: 34px;
 }
