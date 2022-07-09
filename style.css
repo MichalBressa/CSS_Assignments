@@ -44,11 +44,13 @@ h1 {
 }
 
 #figure1 {
-    background-color: #adadad;
-    width: 30vw;
+    width: 20vw;
+    height: auto;
+    /*background-color: #adadad;
+  
     text-align: center;
     line-height: 26vh;
-    color: #E5E7EB;
+    color: #E5E7EB;*/
 }
 
 .button {
@@ -98,7 +100,7 @@ h1 {
     
     border-radius: 8px;*/
     padding: 4px;
-    width: 10vw;
+    width: 12vw;
   }
   
 figcaption {
