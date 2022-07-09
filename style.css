@@ -99,9 +99,14 @@ h1 {
     /*border: 3px #3882f6 solid;
     
     border-radius: 8px;*/
-    padding: 4px;
+   
     width: 12vw;
   }
+
+img.figureBox {
+    border: 3px #3882f6 solid;
+    border-radius: 8px;
+}
   
 figcaption {
     color: #1F2937;
